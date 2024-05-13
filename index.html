@@ -1,0 +1,687 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MaroTeck</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+    <!-- All css here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="body-midnight-blue position-relative">
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+
+    <div class="midnight-blue-body-effect1 position-fixed z-index-1 w-50">
+        <img src="images/slider/white_effect_1.png" alt="">
+    </div><!-- /midnight-blue-body-effect -->
+    <div class="midnight-blue-body-effect2 position-fixed right-0 bottom-0 z-index-1 w-50">
+        <img src="images/slider/white_effect_2.png" alt="">
+    </div><!-- /midnight-blue-body-effect -->
+
+    
+    <!--  ====== preloader=============================================  -->
+    <div id="preloader">
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /preloader -->
+
+
+    <!--  ====== header-area-start
+    ============================================================ -->
+    <header>
+        <div id="header-sticky" class="transparent-header header-area">
+            <div class="header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5">
+                            <div class="logo mt-50 mb-50 transition5">
+                                <!-- <a class="header-logo" href="index.html"><img src="images/logo/logo.png" alt="THAMES"></a> -->
+                                <a class="header-logo" href="index.html"><img src="images/MaroTeck.png" alt="THAMES"></a>
+                            </div>
+                        </div><!-- /col -->
+                        <div
+                            class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-7 pl-0 d-flex justify-content-end align-items-center">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul class="d-block">
+                                        <li>
+                                            <a class="active" href="#home">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#work">Works</a>
+                                        </li>
+                                        <li>
+                                            <a href="#service">service</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact</a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="#blog">Blog</a>
+                                        </li> -->
+                                    </ul>
+                                </nav>
+                            </div><!-- /main-menu -->
+                            <!-- <div class="header-btn pl-45">
+                                <a href="#" class="white-text text-uppercase d-inline-block">download cv</a>
+                            </div><!-- /header-btn -->
+                            <!-- <div class="mobile-m-bar d-block d-lg-none ml-30">
+                                <a class="mobile-menubar theme-color primary-hover" href="javascript:void(0);"><i
+                                        class="far fa-bars"></i></a>
+                            </div>  -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+        </div><!-- /header-bottom -->
+    </header>
+    <!--  header-area-end  -->
+
+
+    <!--  ====== header extra info start
+    ============================================================ -->
+
+    <!-- side-mobile-menu start -->
+    <div class="side-mobile-menu pt-15 pb-30 pl-30 pr-20 pb-100">
+        <div class="d-fle justify-content-between w-100">
+            <div class="close-icon d-inline-block float-right clear-both mt-20 mb-15">
+                <a href="javascript:void(0);"><span class="icon-clear theme-color"><i
+                            class="fa fa-times"></i></span></a>
+            </div>
+        </div>
+        <div class="mobile-menu mt-10"></div>
+        <h5 class="text-white text-center mt-35 pb-1 d-inline-block ml-3">Follow me</h5>
+        <ul class="social social-bg text-center d-flex mt-10 ml-3">
+            <li class="mr-2 rotate-hover">
+                <a class="facebook-bg text-center pr-0 text-white d-block transition-3 rotate" href="#"><i
+                        class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="mr-2 rotate-hover">
+                <a class="twitter-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="mr-2 rotate-hover">
+                <a class="linkedin-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="mr-2 rotate-hover">
+                <a class="instagram-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+        </ul><!-- social -->
+    </div><!-- /side-mobile-menu -->
+    <div class="body-overlay"></div>
+    <!-- header extra info end  -->
+
+    <main class="over-hiddenn">
+
+        <!-- ====== slider-area-start
+        ==================================================== -->
+        <div id="home" class="slider-area slider-bg-color over-hidden">
+            <div class="single-slider slider-height over-hidden position-relative xxl-device-width">
+
+                <div id="scene" class="parallax position-absolute w-100 h-100 z-index1">
+                    <img data-depth="0.20" class="hero-shape hero-shape1 position-absolute d-none d-lg-inline-block"
+                        src="images/shape/shape1.png" alt="#"><!-- /hero-shape1 -->
+                    <img data-depth="0.15" class="hero-shape hero-shape2 position-absolute d-none d-lg-inline-block"
+                        src="images/shape/shape2.png" alt="#"><!-- /hero-shape2 -->
+                    <img data-depth="0.30" class="hero-shape hero-shape3 position-absolute d-none d-lg-inline-block"
+                        src="images/shape/shape3.png" alt="#"><!-- /hero-shape3 -->
+                    <img data-depth="0.10" class="hero-shape hero-shape4 position-absolute d-none d-lg-inline-block"
+                        src="images/shape/shape4.png" alt="#"><!-- /hero-shape4 -->
+                </div><!-- /parallax -->
+                <div class="container slider-height d-flex align-items-end">
+                    <div class="row justify-content-center align-items-center h-50">
+                        <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-11 col-12  d-flex align-items-center justify-content-center">
+                            <div class="slider-wrapper h-60">
+                                <!-- <div class="slider-content text-center mt--45 text-lg-left position-relative z-index11"
+                                    data-aos="fade-right" data-aos-duration="2200" data-aos-delay="1000"> -->
+                                    <h2 class="text-capitalize white-text mb-40">
+                                        <span class="d-text d-block d-sm-inline-block">
+                                           <strong style="color: purple;"> Web & Mobile </strong>  Development Expertise.
+                                        </span>
+                                    </h2>
+                                    <a href="#service" class="btn position-relative over-hidden theme-bg text-uppercase transition5 mb-20">GET STARTED</a>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /single-slider -->
+        </div>
+        <!-- slider-area-end  -->
+        <!-- ====== intro-feature-area-start
+        ================================================== -->
+        <div id="service" class="intro-feature-area over-hidden section-bg position-relative">
+            <div class="container">
+                <div class="row single-intro-feature-wrapper justify-content-center pt-170 pb-140">
+                    <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                        <div class="single-intro-feature-content secondary-bg border-radius10 transition5 mb-30 intro-feature-margin mt-60"
+                            data-tilt data-tilt-max="10">
+                            <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                                <img src="images/icon/intro-ft-icon2.png" alt="icon1">
+                            </div><!-- /intro ft-icon -->
+                            <div class="intro-feature-text">
+                                <h4 class="mb-22">Mobile Application</h4>
+                                <p>
+                                    Digitize your processes and be at your fingertips with our advanced application solutions, our IOS or Android mobile applications; Native, embedded or hybrid.
+                                </p>
+                            </div>
+                        </div><!-- /single-intro-feature-content -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                        <div class="single-intro-feature-content secondary-bg border-radius10 transition5 mb-30" data-tilt
+                            data-tilt-max="10">
+                            <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                                <img src="images/icon/intro-ft-icon3.png" alt="icon1">
+                            </div><!-- /intro ft-icon -->
+                            <div class="intro-feature-text">
+                                <h4 class="mb-22">Web Development</h4>
+                                <p>We create websites and applications using the latest technologies that work hard, get results, and generate ROI.</p>
+                            </div>
+                        </div><!-- /single-intro-feature-content -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                        <div class="single-intro-feature-content secondary-bg border-radius10 transition5 mb-30 intro-feature-margin mt-60"
+                            data-tilt data-tilt-max="10">
+                            <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                                <img src="images/icon/intro-ft-icon4.png" alt="icon1">
+                            </div><!-- /intro ft-icon -->
+                            <div class="intro-feature-text">
+                                <h4 class="mb-22">Motion Design</h4>
+                                <p>Motion graphics come alive! Engage your audience with dynamic videos for any communication, marketing, learning, or event.</p>
+                            </div>
+                        </div><!-- /single-intro-feature-content -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+            <div class="intro-feature-text-style position-absolute d-none d-md-inline-block">
+                <span class="d-inline-block">James</span>
+            </div><!-- /intro-feature-text -->
+            <div class="intro-feature-icon position-absolute d-none d-md-inline-block zoom-animation">
+                <img src="images/shape/content-shape1.png" alt="intro shape 1">
+            </div><!-- /intro-feature-icon -->
+        </div>
+        <!-- intro-area-end  -->
+
+
+
+
+
+        <div id="about" class="about-area over-hidden">
+            <div class="about-content-wrapper about-margin mt-170 mb-110 position-relative">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-xl-6 col-lg-6 col-md-8 offset-md-0 col-sm-10 col-10">
+                            <div class="about-img-wrapper position-relative mb-90">
+                                <div class="about-img position-relative z-index11" data-aos="fade-right"
+                                    data-aos-duration="2000" data-aos-delay="100">
+                                    <div class="about-img-over pl-50 transition5 d-inline-block position-relative">
+                                        <div class="position-relative z-index11" data-tilt data-tilt-max="10">
+                                            <img class="border-radius13 position-relative z-index11"
+                                                src="images/why-us.png" alt="about image 1">
+                                        </div>
+
+                                        <div class="about-shape1 position-absolute" data-aos="fade-right"
+                                            data-aos-duration="2000" data-aos-delay="800"></div><!-- /about-shape1 -->
+                                        <div class="about-shape2 position-absolute z-index11" data-aos="fade-right"
+                                            data-aos-duration="2000" data-aos-delay="800"></div><!-- /about-shape2 -->
+                                       
+
+                                    </div>
+                                </div><!-- /about-img -->
+                            </div><!-- /about-img-wrapper -->
+                        </div><!-- /col -->
+
+                        <div class="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
+                            <div class="about-content position-relative mb-50">
+                                <div class="position-relative">
+                                    <div class="title">
+                                        <span class="theme-color text-uppercase d-block mb-10 mt--5">Why Choose Us?</span>
+                                        <!-- <h2 class="mb-30">I Develop System that Works</h2> -->
+                                    </div><!-- /title -->
+                                </div>
+                                <p class="mb-25 mt-10">MaroTeck is committed to its customers and offers excellent services in the fields of design, development, programming, and marketing.
+
+                                    We put a lot of effort into project completion. Whether we are working for a small organization or a well-established organization, we always make sure to serve our customers with the best possible solution at a reasonable cost.</p>
+                             
+                            </div><!-- /about-content -->
+                        </div><!-- /col -->
+
+                    </div><!-- /row -->
+                </div><!-- /container -->
+
+                <div class="about-text-style position-absolute d-none d-md-inline-block">
+                    <span class="d-inline-block section-text-color">Smith</span>
+                </div><!-- /intro-feature-text -->
+                <div class="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">
+                    <img src="images/shape/content-shape2.png" alt="about shape 2">
+                </div><!-- /intro-feature-icon -->
+
+            </div><!-- /about-wrapper -->
+        </div>
+        <!-- about-area-end -->
+
+
+
+
+     
+        <!-- ====== portfolio-area-start
+        ==================================================== -->
+        <div id="work" class="portfolio-area over-hidden pb-165">
+            <div class="portfolio-wrapper position-relative mt--5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                            <div class="title text-center">
+                                <span class="theme-color text-uppercase d-block mb-6">Portfolio</span>
+                            </div><!-- /title -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+
+                    <div class="row portfolio mt-80">
+                        <div class="col-12">
+                            <div
+                                class="row single-portfolio position-relative theme-border-top theme-border-bottom align-items-center">
+                                <div class="col-xl-2 col-lg-2 col-md-7 col-sm- col-">
+                                    <div class="port-category">
+                                        <span class="meta-text-color text-uppercase">Quran App</span>
+                                    </div>
+                                </div><!-- /col -->
+                                <div class="col-xl-5 col-lg-5 col-md-6  col-sm- col- pl-lg-0">
+                                    <h3>Listening to Quran</h3>
+                                </div><!-- /col -->
+                                <div
+                                    class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
+                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                        src="images/portfolio.png" alt="portfolio image 4" height="200">
+                                    <div class="port-content text-center transition5 z-index11" data-toggle="modal"
+                                        data-target="#exampleModal-p4">
+                                        <span class="d-inline-block"><i class="far fa-plus"></i>
+                                        </span>
+                                    </div><!-- /port-content -->
+                                </div><!-- /col -->
+                            </div><!-- /single-prot -->
+                        </div><!-- /col -->
+
+                    </div><!-- /row -->
+
+
+                    <!-- Modal1 start -->
+                    <div class="modal fade" id="exampleModal-p1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-p1" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-20">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100" src="images/portfolio/port-img1-large.jpg"
+                                                alt="product image 02">
+                                        </div>
+                                        <div class="pro-modal-footer mt-30 mb-45">
+                                            <div class="row align-items-center justify-content-md-between">
+                                                <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                    <div class="modal-tags d-sm-flex align-items-center pt-25">
+                                                        <h6 class="mb-0 pr-15">Tags :</h6>
+                                                        <ul class="tag-list">
+                                                            <li class="d-inline-block pr-10">
+                                                                <a class="d-block" href="#">Web
+                                                                    Design</a>
+                                                            </li>
+                                                            <li class="d-inline-block pr-10">
+                                                                <a class="d-block" href="#">Social
+                                                                    Media</a>
+                                                            </li>
+                                                            <li class="d-inline-block pr-10">
+                                                                <a class="d-block" href="#">Product</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- /col -->
+                                                <div class="col-xl-5 col-lg-5  col-md-12 col-sm-10 col-12">
+                                                    <div
+                                                        class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                        <h6 class="pr-12 mb-0 primary-color">Share this product :</h6>
+                                                        <ul class="social-link text-md-right">
+                                                            <li class="d-inline-block">
+                                                                <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                    href="#"><i class="fab fa-facebook-f"></i></a>
+                                                            </li>
+                                                            <li class="d-inline-block">
+                                                                <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                    href="#"><i class="fab fa-twitter"></i></a>
+                                                            </li>
+                                                            <li class="d-inline-block">
+                                                                <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                    href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                            </li>
+                                                            <li class="d-inline-block">
+                                                                <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                    href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                            </li>
+                                                        </ul><!-- social-link -->
+                                                    </div>
+                                                </div><!-- /col -->
+                                            </div> <!-- .row -->
+                                        </div>
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal end -->
+
+
+                    <!-- Modal end -->
+                </div><!-- /container -->
+            </div><!-- /portfolio-wrapper -->
+        </div>
+
+
+
+
+
+        <div id="contact" class="contact-area over-hidden mb-160 mt-155">
+            <div id="hero-btn" class="contact-wrapper position-relative">
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                            <div class="title text-center">
+                                <span class="theme-color text-uppercase d-block mb-6">Contact Me</span>
+                                <h2>Let’s Start A New Project</h2>
+                            </div><!-- /title -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
+                            <div class="contact-wrapper mt-70">
+                                <ul class="contact-info-content">
+                                    <li
+                                        class="contact-location s-contact mb-20 transition-3 d-lg-flex align-items-center">
+                                        <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                            <span class="text-white d-inline-block">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text d-inline-block">
+                                            <h4 class="mb-2">Location</h4>
+                                            <p class="text-color mb-0">Mhamid, Marrakech, Morroco</p>
+                                        </div>
+                                    </li><!-- /contact-location -->
+                                    <li
+                                        class="contact-email s-contact mb-20 transition-3 d-lg-flex  align-items-center">
+                                        <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                            <span class="text-white d-inline-block">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text">
+                                            <h4 class="mb-2">Phone</h4>
+                                            <p class="mb-0">
+                                                <a class="text-color primary-hover d-block" href="#">+212 659158079</a>
+                                            </p>
+                                        </div>
+                                    </li><!-- /contact-email -->
+                                    <li
+                                        class="contact-phone s-contact mb-20 transition-3 d-lg-flex  align-items-center">
+                                        <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                            <span class="text-white d-inline-block">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text d-inline-block">
+                                            <h4 class="mb-2">Email</h4>
+                                            <p class="mb-0">
+                                                <a class="text-color primary-hover d-block"
+                                                    href="#">marocTeck@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </li><!-- /contact-phone -->
+                                </ul><!-- /contact-info-content -->
+                            </div><!-- /contact-wrapper -->
+                        </div><!-- /col -->
+                        <div class="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
+                            <div class="contact-wrapper">
+                                <div class="contact-form mt-45">
+                                    <form action="./php/mail.php" method="POST" id="contact-form">
+                                        <div class="contact-info pt-20">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
+                                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                    data-aos-duration="2000">
+                                                    <input
+                                                        class="name w-100 theme-border pl-20 pt-15 pb-15 pr-10 border-radius5 openS-font-family"
+                                                        type="text" name="inputName" id="inputName"
+                                                        placeholder="Your Name">
+                                                    <!-- /name -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12"
+                                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                    data-aos-duration="2500">
+                                                    <input
+                                                        class="email w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                        type="email" name="inputEmail" id="inputEmail"
+                                                        placeholder="Your Email">
+                                                    <!-- /email -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
+                                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                    data-aos-duration="2000">
+                                                    <input
+                                                        class="phone w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                        type="text" name="inputPhone" id="inputPhone"
+                                                        placeholder="Your Phone">
+                                                    <!-- /phone -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12"
+                                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                    data-aos-duration="2500">
+                                                    <input
+                                                        class="subject w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                        type="text" name="inputSubject" id="inputSubject"
+                                                        placeholder="Your Subject">
+                                                    <!-- /subject -->
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                            <div class="row ">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pl-12 pr-12 mb-12"
+                                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                    data-aos-duration="2000">
+                                                    <textarea
+                                                        class="massage w-100 theme-border pl-20 pt-15 pr-10 primary-color border-radius5 openS-font-family"
+                                                        name="inputMessage" id="inputMessage"
+                                                        placeholder="Start writing message here"></textarea>
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                            <button
+                                                class="btn position-relative over-hidden text-white d-inline-block theme-bg white-text text-uppercase"
+                                                type="submit" name="submit" data-aos="fade-up"
+                                                data-aos-anchor-placement="top-bottom" data-aos-duration="2500">Submit
+                                                Now</button>
+                                        </div>
+                                    </form>
+                                    <p class="form-message mt-20"></p>
+                                </div><!-- /contact-form -->
+                            </div><!-- /contact-wrapper -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /blog-wrapper -->
+        </div>
+        <!-- blog-area-end  -->
+
+    </main>
+
+
+    <!-- ====== footer-area-start 
+    ============================================ -->
+    <footer>
+        <div class="footer-area over-hidden pt-110 mb-80">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4  col-lg-5  col-md-8  col-sm-7 col-12">
+                            <div class="footer-widget footer-logo pb-40">
+                                <div class="foot-logo mb-30">
+                                    <img src="images/MT.png">
+                                </div>
+                                <div class="copyright-text">
+                                    <p class="mb-0">All rights reserved
+                                        <a href="https://themeforest.net/user/ethemestudio" class="c-theme white-text f-600">MaroTeck</a>
+                                        © 2024
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div
+                            class="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12 d-none d-sm-block d-lg-none">
+                            <div class="footer-widget pb-40">
+                                <h4 class="mb-28 mt-2">Follow Me</h4>
+                                <ul class="social social-bg text-center d-flex">
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"
+                                            href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="twitter-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="linkedin-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="instagram-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul><!-- social -->
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-3  col-lg-4  col-md-12  col-sm-12 col-12">
+                            <div class="footer-widget pb-40">
+                                <h4 class="mb-28 mt-2">Newsletter</h4>
+                                <div class="newsletter-form">
+                                    <form action="#">
+                                        <div class="subscribe-info position-relative">
+                                            <input
+                                                class="sub-name theme-border pl-25 pt-15 pb-15 pr-10 w-100 secondary-color2 border-radius5 secondary-bg"
+                                                type="email" name="email" id="Email" placeholder="Submit your email">
+                                            <span class="d-block position-absolute theme-color cursor-pointer"><i
+                                                    class="fal fa-envelope"></i></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12  d-sm-none d-lg-block">
+                            <div class="footer-widget pb-40">
+                                <h4 class="mb-28 mt-2">Follow Me</h4>
+                                <ul class="social social-bg text-center d-flex">
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"
+                                            href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="twitter-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="linkedin-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li class="mr-2 rotate-hover">
+                                        <a class="instagram-bg text-center pr-0 text-white d-block rotate transition-3"
+                                            href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul><!-- social -->
+                            </div>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area-end  -->
+
+
+    <!-- back top -->
+    <div id="scroll" class="scrollTop text-right">
+        <a href="#" class="theme-bg white-text text-center d-inline-block mr-10 transition5">
+            <span><i class="fal fa-angle-double-up"></i></span>
+        </a>
+    </div>
+
+
+    <!-- ================== All js here ================ -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- knob-js -->
+    <script src="js/jquery-appear.js"></script>
+    <script src="js/jquery-knob.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/image-loaded.min.js"></script>
+    <script src="js/counterup-min.js"></script>
+    <script src="js/one-page-nav-min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <!-- map js -->
+    <script src="js/leaflet.js"></script>
+    <script src="js/typer.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
